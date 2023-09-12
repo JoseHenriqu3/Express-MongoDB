@@ -7,15 +7,15 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/cool', function(req, res, next) {
-  res.send('You are so cool. Deu certo Joédio !');
+  res.send('You are so cool. Deu certo !');
 });
 
 router.get('/cool/beach', function(req, res, next) {
-  res.send('Queria estar na praia, mas lembrei que moro na Gaivota.');
+  res.send('Legallllllllll.');
 });
 
 router.get('/ifc', function(req, res, next) {
-  res.send('Welcome to IFC - A melhor instituição!');
+  res.send('Welcome to IFC - 3ºB o Melhor!');
 });
 
 module.exports = router;
